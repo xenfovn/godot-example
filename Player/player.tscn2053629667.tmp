@@ -149,11 +149,11 @@ hframes = 21
 [node name="AnimationPlayer" type="AnimationPlayer" parent="." unique_id=702451863]
 libraries/ = SubResource("AnimationLibrary_x3vf3")
 
-[node name="StateMachine" type="Node" parent="." unique_id=1655289137]
+[node name="Node" type="Node" parent="." unique_id=1655289137]
 script = ExtResource("3_btcbx")
 
-[node name="Idle" type="Node" parent="StateMachine" unique_id=1151597816]
+[node name="Idle" type="Node" parent="Node" unique_id=1151597816]
 script = ExtResource("4_k53q1")
 
-[node name="Walk" type="Node" parent="StateMachine" unique_id=761961183]
+[node name="Walk" type="Node" parent="Node" unique_id=761961183]
 script = ExtResource("5_fhl08")
