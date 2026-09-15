@@ -7,7 +7,7 @@ func _ready() -> void:
 	pass # Replace with function body.
 
 func Enter() -> void:
-	player.UpdateAnimation("idle")
+	player.UpdateAnimation("walk")
 	pass
 	
 func Exit() -> void:
