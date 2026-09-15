@@ -13,12 +13,15 @@ func _ready() -> void:
 	pass # Replace with function body.
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
-func _process(delta: float) -> void:
-	direction.x = Input.get_action_strength("right") - Input.get_action_strength("left")
-	direction.y = Input.get_action_strength("down") - Input.get_action_strength("up")
+func _process(_delta: float) -> void:
+	direction = Vector2(
+		Input.get_axis("left", "right"),
+		Input.get_axis("up", "down"),
+	).normalized()
+	
 	pass
 
-func _physics_process(delta: float) -> void:
+func _physics_process(_delta: float) -> void:
 	move_and_slide()
 	pass
 
