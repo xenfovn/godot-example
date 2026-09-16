@@ -72,6 +72,11 @@ shift={
 ]
 }
 
+[layer_names]
+
+2d_physics/layer_1="Player"
+2d_physics/layer_5="Grass"
+
 [physics]
 
 3d/physics_engine="Jolt Physics"

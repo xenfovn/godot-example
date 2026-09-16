@@ -143,6 +143,7 @@ script = ExtResource("1_4ntmi")
 shape = SubResource("CircleShape2D_ntbkr")
 
 [node name="Sprite2D" type="Sprite2D" parent="." unique_id=128059621]
+position = Vector2(0, -20)
 texture = ExtResource("2_btcbx")
 hframes = 21
 
@@ -157,3 +158,5 @@ script = ExtResource("4_k53q1")
 
 [node name="Walk" type="Node" parent="StateMachine" unique_id=761961183]
 script = ExtResource("5_fhl08")
+
+[node name="Camera2D" type="Camera2D" parent="." unique_id=257423892]
